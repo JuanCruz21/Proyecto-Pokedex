@@ -1,0 +1,49 @@
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilos para las imágenes */
+  .header-image {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+    background-color: #ccc;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .header-image:hover {
+    background-color: #aaa;
+    cursor: pointer;
+  }
+  
+  .image1 {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1280px-International_Pok%C3%A9mon_logo.svg.png');
+  }
+  
+  .image2 {
+    background-image: url('https://canelapr.com/wp-content/uploads/2021/06/pokemon_unite_logo.png');
+  }
+  
+  .image3 {
+    background-image: url('https://images.wikidexcdn.net/mwuploads/wikidex/1/14/latest/20221105120734/Logo_Cenit_Supremo_%28TCG%29.png');
+  }
+  
+  .header-image-container {
+    display: inline-block;
+  }
+  
+  .image4 {
+    width: 200px;
+    height: 100px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Pok%C3%A9ball.png/480px-Pok%C3%A9ball.png');
+    background-color: #ddd;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }

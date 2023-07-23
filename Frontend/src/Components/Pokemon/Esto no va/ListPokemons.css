@@ -1,0 +1,109 @@
+.titulo {
+    text-align: center;
+  }
+  
+  .lodelformulario {
+    display: flex;
+  }
+  
+  .lodelformulario .imagen {
+    flex-basis: 30%;
+  }
+  
+  .lodelformulario .contenido {
+    flex-basis: 70%;
+    padding: 10px;
+  }
+  
+  .contenido .descripcion {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .contenido .versiones {
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .contenido .versiones p {
+    margin: 0;
+  }
+  
+  .contenido .versiones .titulo {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .contenido .versiones .descripcion {
+    margin-bottom: 5px;
+  }
+  
+  .contenido .versiones .div-altura {
+    height: 100px;
+    border-radius: 50px;
+    background-color: #ccc;
+  }
+  
+  .contenido .info {
+    margin-bottom: 10px;
+  }
+  
+  .contenido .info .titulo {
+    font-weight: bold;
+  }
+  
+  .contenido .info .tipos {
+    display: flex;
+  }
+  
+  .contenido .info .tipos p {
+    margin: 0;
+    margin-right: 10px;
+  }
+  
+  .contenido .info .debilidades {
+    display: flex;
+  }
+  
+  .contenido .info .debilidades p {
+    margin: 0;
+    margin-right: 10px;
+  }
+  
+  .puntos-bases {
+    text-align: center;
+  }
+  
+  .puntos-bases .categoria {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .puntos-bases .categoria p {
+    margin: 0;
+  }
+  
+  .evoluciones {
+    text-align: center;
+  }
+  
+  .evoluciones .categoria {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .evoluciones .categoria p {
+    margin: 0;
+  }
+
+
+
+
+  .evoluciones .categoria img {
+    max-width: 120px;
+    margin-right: 100px;
+  }
