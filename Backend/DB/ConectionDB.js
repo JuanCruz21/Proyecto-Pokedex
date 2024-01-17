@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-let conexion ='mongodb+srv://Admin:Admin123@cluster0.hvudlpq.mongodb.net/?retryWrites=true&w=majority' 
+let conexion ='url mongo' 
 //mongosh "mongodb+srv://cluster0.0rag2qq.mongodb.net" --apiVersion 1 --username Admin
 //mongodb+srv://Admin:Admin123@cluster0.0rag2qq.mongodb.net/?retryWrites=true&w=majority
 
